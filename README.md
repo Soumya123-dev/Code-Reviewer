@@ -5,15 +5,15 @@ Code Reviewer is a web-based application that automatically reviews your code an
 
 # Solution Proposed
 
-Manually reviewing code can be time-consuming and inconsistent. This project provides an AI-driven solution that:
+>Manually reviewing code can be time-consuming and inconsistent. This project provides an AI-driven solution that:
 
-Reviews the code instantly.
+>Reviews the code instantly.
 
-Detects syntax and logical issues.
+>Detects syntax and logical issues.
 
-Suggests improvements in code efficiency, readability, and structure.
+>Suggests improvements in code efficiency, readability, and structure.
 
-Supports multiple programming languages.
+>Supports multiple programming languages.
 
 # Tech Stack Used
 
@@ -29,52 +29,48 @@ Deployment: Vercel
 
 # How to Run Locally
 
-Clone the repository:
-
+**Clone the repository:
 git clone https://github.com/Soumya123-dev/Code-Reviewer.git
-cd Code-Reviewer
+cd Code-Reviewer**
 
 
-Install dependencies:
+**Install dependencies:
+npm install**
 
-npm install
+**Start the development server:
+npm run dev**
 
+**Open the app at http://localhost:3000**
 
-Add environment variables:
-Create a .env file in the root directory and add:
-
-GEMINI_API_KEY=your_api_key_here
-
-
-Start the development server:
-
-npm run dev
-
-
-Open the app at http://localhost:5173/
- (or as shown in the terminal).
 
 # Project Architecture
 Code-Reviewer/
 │
-├── frontend/              # React-based user interface
+
+├── frontend/               # React-based user interface
+
 ├── backend/               # Node.js + Express server
+
 │   ├── routes/            # API routes for AI and code processing
+
 │   ├── controllers/       # Logic for code review
+
 │   └── server.js          # Main backend entry point
+
 │
 ├── .env                   # Environment variables
+
 ├── package.json           # Dependencies
+
 └── README.md              # Project documentation
 
 # Deployment
 
 The project is deployed using Vercel, ensuring fast, serverless deployment with continuous integration directly from GitHub.
 
-Live Demo: https://code-reviewer.vercel.app
- (replace with your live link if available)
+**Live Demo: https://code-reviewer.vercel.app**
 
-# Benefits
+ # Benefits
 
 AI-powered code quality feedback.
 
